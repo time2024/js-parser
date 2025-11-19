@@ -1,14 +1,11 @@
 ---
 title: 基于C语言的javascript语法解析器
-date: 2025-11-19 14:00:00
-tags:
-- 编译原理
+date: 2025-11-19
 categories: 学习
+author: Zenith
 ---
 
-本博客记录本人完成的基于vibe coding的编译原理课程大作业：基于C语言的javascript语法解析器。
-
-<!--more-->
+本仓库记录本人完成的基于vibe coding的编译原理课程大作业：基于C语言的javascript语法解析器。
 
 工具：re2c+bison（Flex不支持unicode定义，javascript中的多种符合是应用unicode定义的）
 
