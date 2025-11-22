@@ -1,7 +1,6 @@
 ---
 title: 基于C语言的javascript语法解析器
 date: 2025-11-19
-categories: 学习
 author: Zenith
 ---
 
@@ -269,46 +268,46 @@ js-parser/
     ```
   
   
-    - functions.js - 函数声明
-  
-      ```javascript
-      function regular() { return 1; }
-      async function asyncFunc() { return 2; }
-      function outer() {
-          function inner() { return 42; }
-          return inner();
-      }
-      ```
-  
-    - asi_return.js - ASI（自动分号插入）与return
-  
-      ```javascript
-      function test1() {
-          return
-          42;  // ASI在return后插入分号，返回undefined
-      }
-      
-      function test2() {
-          return 42;  // 返回42
-      }
-      ```
-  
-    - asi_statements.js - ASI（自动分号插入）与语句
-  
-      ```javascript
-      var a = 1
-      var b = 2  // ASI自动插入分号
-      a = b + c
-      a++
-      ```
-  
-    - unicode.js - Unicode支持
-  
-      ```javascript
-      var α = 42;           // 希腊字母
-      var 变量 = "中文";     // 中文
-      var ヴァリアブル = 123; // 日文
-      ```
+  - functions.js - 函数声明
+
+    ```javascript
+    function regular() { return 1; }
+    async function asyncFunc() { return 2; }
+    function outer() {
+    function inner() { return 42; }
+    return inner();
+    }
+    ```
+
+  - asi_return.js - ASI（自动分号插入）与return
+
+    ```javascript
+    function test1() {
+    return
+    42;  // ASI在return后插入分号，返回undefined
+    }
+
+    function test2() {
+    return 42;  // 返回42
+    }
+    ```
+
+  - asi_statements.js - ASI（自动分号插入）与语句
+
+    ```javascript
+    var a = 1
+    var b = 2  // ASI自动插入分号
+    a = b + c
+    a++
+    ```
+
+  - unicode.js - Unicode支持
+
+    ```javascript
+    var α = 42;           // 希腊字母
+    var 变量 = "中文";     // 中文
+    var ヴァリアブル = 123; // 日文
+    ```
   
 - 负向测试（tests/negative/）
   - invalid_syntax.js - 语法错误
