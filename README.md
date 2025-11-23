@@ -1,7 +1,11 @@
 ---
 title: 基于C语言的javascript语法解析器
 date: 2025-11-19
-author: Zenith
+author: Zenith、千朵玫瑰带来的黎明、SPACE COWBOY
+---
+
+对测试用例`basic.js`和`functions.js`进行了补充，下面的内容还是以旧的测试用例为准，实际运行以实际测试用例情况为准
+
 ---
 
 本仓库记录本人完成的基于vibe coding的编译原理课程大作业：基于C语言的javascript语法解析器。
