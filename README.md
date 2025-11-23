@@ -8,7 +8,7 @@ author: Zenith、千朵玫瑰带来的黎明、SPACE COWBOY
 
 ---
 
-本仓库记录本人完成的基于vibe coding的编译原理课程大作业：基于C语言的javascript语法解析器。
+本仓库记录本小组完成的基于vibe coding的编译原理课程大作业：基于C语言的javascript语法解析器。
 
 工具：re2c+bison（Flex不支持unicode定义，javascript中的多种符合是应用unicode定义的）
 
@@ -22,7 +22,9 @@ author: Zenith、千朵玫瑰带来的黎明、SPACE COWBOY
 
 这是一个基于C语言的JavaScript语法解析器，使用re2c进行词法分析和bison进行语法分析，完全遵循ECMAScript规范并实现了ASI(自动分号插入)机制。
 
-**完整的项目源代码压缩包：**[ js-parser.zip 项目下载](https://smallgoodgood.top/document/js-parser.zip)
+**完整的项目源代码压缩包（旧测试用例）：**[ js-parser.zip 项目下载](https://smallgoodgood.top/document/js-parser.zip)
+
+**完整的项目源代码压缩包（新测试用例）：**[ js-parser-2.zip 项目下载](https://smallgoodgood.top/document/js-parser-2.zip)
 
 包含内容：
 
